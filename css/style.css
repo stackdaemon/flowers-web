@@ -170,10 +170,10 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
-
 }
 .left_top_img {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/deal-bloom.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/deal-bloom.png");
   border-radius: 10px;
   width: 366.22px;
   height: 203px;
@@ -184,12 +184,13 @@ header {
   text-align: center;
 }
 .left_bottom_img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/deal-ana.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/deal-ana.png");
   border-radius: 10px;
   width: 366.22px;
   height: 199px;
   text-align: center;
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -206,27 +207,68 @@ header {
   font-weight: 600;
 }
 .right_mid {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/zabo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/zabo.png");
   width: 753px;
   height: 430px;
   border-radius: 10px;
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.right_title{
-  font-size:40px ;
+.right_title {
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
-.right_a{
+.right_a {
   color: white;
   font-size: 28px;
   font-weight: 600;
   padding: 15px 66px;
 }
+/* Join section */
+.join_section{
+  background-image: url('../assets/news-letter-bg.png');
+  background-repeat: no-repeat;
+  height:533px ;
+  max-width: 1440px;
+  margin:120px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.join_container input {
+  padding: 19px 540px 19px 20px ;
+  border: none;
+}
+.input{
+  display: flex;
+  justify-content: center;
+}
+.join_title {
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 23px;
+
+}
+.subscribe {
+  color: white;
+  padding: 19px 53px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+/* footer section */
+
+
+
+
+
 
 
 
