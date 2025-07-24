@@ -72,12 +72,9 @@ header{
 .banner_left{
      margin-top: 94px;
 }
-
 /* plants section */
 .plants_container{
-     text-align: center;
-     margin-top: 100px;
-     background: lightgreen;
+     margin-bottom: 30px;
 }
 .plants_title{
      font-size:50px ;
@@ -87,20 +84,40 @@ header{
      width: 888px;
      margin: auto;
      text-align: center;
-}
+} 
+
 /* card section */
+.card_section{
+     margin-top: 50px;
+     text-align: center;
+}
+
 .card_container{
-     
+     text-align: center;
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     gap: 24px;
 }
 .card_title{
      font-size: 22px;
      font-weight: 500;
+     margin-bottom: 10px;   
 }
 .card_price{
      font-size:22px ;
      font-weight: bold;
+     display: block;
+     margin-bottom: 10px;
 }
 
+.btn{
+     padding: 26px 50px ;
+     background:rgb(233, 90, 8) ;
+     color: white;
+     font-weight:600 ;
+     border: none;
+     width: 270px;
+}
 
 
 
@@ -164,4 +181,4 @@ header{
      max-width: 100%;
 }
  
-}  */ */
+}  */ 
