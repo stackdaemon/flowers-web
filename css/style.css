@@ -1,123 +1,163 @@
 /* common section */
-*{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.inter_font{
-     font-family: "Inter", sans-serif;
+.inter_font {
+  font-family: "Inter", sans-serif;
 }
-.noto_font{
-     font-family: "Noto Serif", serif;
+.noto_font {
+  font-family: "Noto Serif", serif;
 }
-.container{
-     max-width: 1280px;
-     margin: auto;
+.container {
+  max-width: 1280px;
+  margin: auto;
 }
-.com_p{
-     color:rgba(0, 0, 0, 0.5) ;
-     font-weight: 400;
-     font-size: 22px;
+.com_p {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  font-size: 22px;
 }
-header{
-     background: lightcoral; 
+header {
+  /* background: lightcoral; */
 }
-.hide{
-     display: none;
+.hide {
+  display: none;
 }
 /* nav section */
-.header_section{
-     margin-top: 30px;
+.header_section {
+  margin-top: 30px;
 }
 .nav_ul {
-     display: flex;
-     list-style: none;
+  display: flex;
+  list-style: none;
 }
 .nav li a {
-     text-decoration: none;
-     color: black;
-     margin-right: 48px;
+  text-decoration: none;
+  color: black;
+  margin-right: 48px;
 }
-.nav{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width:  100%;
-
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-#home{
-     font-weight: bold;
+#home {
+  font-weight: bold;
 }
-#shop,#about{
-     color:rgb(137, 135, 161) ;
+#shop,
+#about {
+  color: rgb(137, 135, 161);
 }
 /* Banner section */
 
-.banner_container{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-top: 120px;
-     padding: 6px;
-     background-color: lightblue;
-     width:  100%;
+.banner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+  padding: 6px;
+  /* background-color: lightblue; */
+  width: 100%;
 }
-.baner_title{
-     font-weight: bold;
-     font-size: 65px;
+.baner_title {
+  font-weight: bold;
+  font-size: 65px;
 }
-.banner_color{
-     color: rgb(233, 90, 8);
+.banner_color {
+  color: rgb(233, 90, 8);
 }
-.banner_left{
-     margin-top: 94px;
+.banner_left {
+  margin-top: 94px;
 }
 /* plants section */
-.plants_container{
-     margin-bottom: 30px;
+.plants_container {
+  margin-bottom: 30px;
+  
 }
-.plants_title{
-     font-size:50px ;
-     font-weight: bold;
+.plants_title {
+  font-size: 50px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
 }
-.plants_description{
-     width: 888px;
-     margin: auto;
-     text-align: center;
-} 
+.plants_description {
+  width: 888px;
+  margin: auto;
+  text-align: center;
+}
 
 /* card section */
-.card_section{
-     margin-top: 50px;
-     text-align: center;
+.card_section {
+  margin-top: 50px;
+  text-align: center;
 }
 
-.card_container{
-     text-align: center;
-     display: grid;
-     grid-template-columns: repeat(4,1fr);
-     gap: 24px;
+.card_container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
-.card_title{
-     font-size: 22px;
-     font-weight: 500;
-     margin-bottom: 10px;   
+.card_title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
-.card_price{
-     font-size:22px ;
-     font-weight: bold;
-     display: block;
-     margin-bottom: 10px;
+.card_price {
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.btn{
-     padding: 26px 50px ;
-     background:rgb(233, 90, 8) ;
-     color: white;
-     font-weight:600 ;
-     border: none;
-     width: 270px;
+.btn {
+  padding: 26px 50px;
+  background: rgb(233, 90, 8);
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 270px;
 }
+
+/* Flowers store section */
+.flowers_section {
+  margin-top: 210px;
+}
+.flowers_container {
+  display: flex;
+ 
+
+  align-items: center;
+  gap: 60px;
+}
+
+.flowers_ul_title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ul_description {
+  padding-left: 40px;
+}
+.flowers_left {
+  position: relative;
+}
+.badge_img {
+  width: 286px;
+  height: 286px;
+}
+.badge {
+  position: absolute;
+  top: -123px;
+  right: -93px;
+}
+
+/* lades section */
+
 
 
 
@@ -173,7 +213,7 @@ header{
      flex-direction: column-reverse;   
      /* justify-content: center; 
      margin: auto;  */
- /* }
+/* }
  .banner_left{
      max-width: 361px;
  }
@@ -181,4 +221,4 @@ header{
      max-width: 100%;
 }
  
-}  */ 
+}  */
