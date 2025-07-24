@@ -264,6 +264,31 @@ header {
   border: none;
 }
 /* footer section */
+.footer_container{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+  
+}
+.footer_p{
+  max-width: 359px;
+}
+.footer_ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.footer_a{
+  text-decoration: none;
+  color:rgb(107, 114, 128) ;
+}
+.fourth{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 
 
 
