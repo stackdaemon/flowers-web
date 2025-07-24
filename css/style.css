@@ -11,7 +11,7 @@
   font-family: "Noto Serif", serif;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: auto;
 }
 .com_p {
@@ -75,7 +75,6 @@ header {
 /* plants section */
 .plants_container {
   margin-bottom: 30px;
-  
 }
 .plants_title {
   font-size: 50px;
@@ -128,7 +127,6 @@ header {
 }
 .flowers_container {
   display: flex;
- 
 
   align-items: center;
   gap: 60px;
@@ -157,41 +155,78 @@ header {
 }
 
 /* lades section */
+.latest_section {
+  margin-top: 120px;
+}
+/* .latest_section >.plants_container{
+  margin-bottom: 0;
+} */
+.latest_img_container {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.left_img {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.left_top_img {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/deal-bloom.png");
+  border-radius: 10px;
+  width: 366.22px;
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left_bottom_img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/deal-ana.png");
+  border-radius: 10px;
+  width: 366.22px;
+  height: 199px;
+  text-align: center;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left_title {
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+}
+.left_a {
+  color: white;
+  padding: 19px 95px;
+  font-weight: 600;
+}
+.right_mid {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/zabo.png");
+  width: 753px;
+  height: 430px;
+  border-radius: 10px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.right_title{
+  font-size:40px ;
+  font-weight: bold;
+  color: white;
+}
+.right_a{
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 15px 66px;
+}
 
 
 
