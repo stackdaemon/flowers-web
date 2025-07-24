@@ -1,0 +1,58 @@
+/* common section */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.inter_font{
+     font-family: "Inter", sans-serif;
+}
+.noto_font{
+     font-family: "Noto Serif", serif;
+}
+.container{
+     max-width: 1280px;
+     margin: auto;
+}
+header{
+     background-color: aquamarine;
+     
+}
+
+/* nav section */
+.header_section{
+     margin-top: 30px;
+}
+.nav_ul {
+     display: flex;
+     list-style: none;
+}
+.nav li a {
+     text-decoration: none;
+     color: black;
+     margin-right: 48px;
+}
+.nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#home{
+     font-weight: bold;
+}
+#shop,#about{
+     color:rgb(137, 135, 161) ;
+}
+/* Banner section */
+
+
+
+@media screen and (max-width:576px) {
+  .home,.shop,.about{
+     display: none;
+  }
+  .nav{
+     flex-direction: row;
+     /* flex-wrap: wrap; */
+  }
+} 
